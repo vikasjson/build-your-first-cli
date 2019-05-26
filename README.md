@@ -1,34 +1,5 @@
 # :boom: Develop your First CLI - Workshop :boom:
 
-This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi/Gurgaon.
-
-# :calendar: Event Details
-
-## April
-
-- **Event Name**: Code-lab : Web Developers Day 3 by Google Developer Group, New Delhi
-- **Date**: 28th April 2019
-- **Location**: 91Springboard, Gurgaon
-- **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
-
-## May
-
-- **Event Name**: Code-lab : Develop your First CLI, Bangalore
-- **Date**: 12th May 2019
-- **Location**: Microsoft, Bangalore
-- **Event Link**: [JSLovers](https://www.meetup.com/jschannel-Bengaluru/events/261067974/)
-
-# Introduction
-
-My name is Neha Sharma. I am working as technical lead. I am the organizer of JSLovers community. I am tech and non-tech speaker. Apart form coding I enjoy doing calligraphy.
-
-You can reach me :
-
-- Twitter : [@hellonehha](https://twitter.com/hellonehha)
-- Linkdin : [@/in/nehha/](https://www.linkedin.com/in/nehha/)
-- Instagram : @calligraphyzen
-- Email : neha@jslovers.com
-
 # :heavy_exclamation_mark: Pre-requists :heavy_exclamation_mark:
 
 - :white_check_mark: Knowledge of Javascript
