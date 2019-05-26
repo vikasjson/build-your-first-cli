@@ -1,125 +1,167 @@
-# build-your-first-cli
-Build your first CLI with nodejs
-
-
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@vikasjson 
-0
-27 16 Neha/develop-your-first-CLI-workshop
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
-You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request.
-develop-your-first-CLI-workshop
-/
-README.md
- 
-
-1
 # :boom: Develop your First CLI - Workshop :boom:
-2
-​
-3
-This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi/Gurgaon.
-4
-​
-5
-# :calendar: Event Details
-6
-​
-7
-## April
-8
-​
-9
-- **Event Name**: Code-lab : Web Developers Day 3 by Google Developer Group, New Delhi
-10
-- **Date**: 28th April 2019
-11
-- **Location**: 91Springboard, Gurgaon
-12
-- **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
-13
-​
-14
-## May
-15
-​
-16
-- **Event Name**: Code-lab : Develop your First CLI, Bangalore
-17
-- **Date**: 12th May 2019
-18
-- **Location**: Microsoft, Bangalore
-19
-- **Event Link**: [JSLovers](https://www.meetup.com/jschannel-Bengaluru/events/261067974/)
-20
-​
-21
-# Introduction
-22
-​
-23
-My name is Neha Sharma. I am working as technical lead. I am the organizer of JSLovers community. I am tech and non-tech speaker. Apart form coding I enjoy doing calligraphy.
-24
-​
-25
-You can reach me :
-26
-​
-27
-- Twitter : [@hellonehha](https://twitter.com/hellonehha)
-28
-- Linkdin : [@/in/nehha/](https://www.linkedin.com/in/nehha/)
-29
-- Instagram : @calligraphyzen
-30
-- Email : neha@jslovers.com
-31
-​
-32
-# :heavy_exclamation_mark: Pre-requists :heavy_exclamation_mark:
-33
-​
-34
-- :white_check_mark: Knowledge of Javascript
-35
-- :white_check_mark: Knowledge of nodejs
-36
-- :white_check_mark: Comfortble working with CLI and IDE
-37
-- :white_check_mark: Github account
-38
-- :white_check_mark: NPM account
-39
-​
-40
-# :memo: Agenda
-41
-​
-42
-1. What is nodejs & CLI [Theory]
-43
-2. Project walkthrough [Theory]
-44
-3. Folder structure [Theory]
-45
-4. Installing package.json [Code]
-46
-5. Create your data [Code]
-47
-6. Code time [Code]
-@vikasjson
-Propose file change
-Commit summary 
-Update README.md
-Optional extended description
-Add an optional extended description…
 
-Choose which email address to associate with this commit
+This repo is the step-by-step guide to develop the CLI in Nodejs. This repo is the part of the GDG (Google Developer Groups), New Delhi/Gurgaon.
+
+# :calendar: Event Details
+
+## April
+
+- **Event Name**: Code-lab : Web Developers Day 3 by Google Developer Group, New Delhi
+- **Date**: 28th April 2019
+- **Location**: 91Springboard, Gurgaon
+- **Event Link**: [GDG Event Page](https://www.meetup.com/GDGNewDelhi/events/260830507/)
+
+## May
+
+- **Event Name**: Code-lab : Develop your First CLI, Bangalore
+- **Date**: 12th May 2019
+- **Location**: Microsoft, Bangalore
+- **Event Link**: [JSLovers](https://www.meetup.com/jschannel-Bengaluru/events/261067974/)
+
+# Introduction
+
+My name is Neha Sharma. I am working as technical lead. I am the organizer of JSLovers community. I am tech and non-tech speaker. Apart form coding I enjoy doing calligraphy.
+
+You can reach me :
+
+- Twitter : [@hellonehha](https://twitter.com/hellonehha)
+- Linkdin : [@/in/nehha/](https://www.linkedin.com/in/nehha/)
+- Instagram : @calligraphyzen
+- Email : neha@jslovers.com
+
+# :heavy_exclamation_mark: Pre-requists :heavy_exclamation_mark:
+
+- :white_check_mark: Knowledge of Javascript
+- :white_check_mark: Knowledge of nodejs
+- :white_check_mark: Comfortble working with CLI and IDE
+- :white_check_mark: Github account
+- :white_check_mark: NPM account
+
+# :memo: Agenda
+
+1. What is nodejs & CLI [Theory]
+2. Project walkthrough [Theory]
+3. Folder structure [Theory]
+4. Installing package.json [Code]
+5. Create your data [Code]
+6. Code time [Code]
+7. Publish the npm [Code]
+
+# Content
+
+0. [Walkthrough of Nodejs, CLI , and Project](#zero-walkthrough-theory)
+1. [Setup your machine - nodejs, folder structure, package.json](#one-setup-your-machine-codelab)
+1. [Create your data](#two-create-your-data-codelab)
+1. [Install require package and print your first message](#three-code-time-codelab)
+1. [Write the code](#four-beautification)
+1. [Publish the NPM](#five-publish-npm-codelab)
+
+# :bell: How to use this repo?
+
+This repo is step-by-step guide. You can clone the repo or follow along.Every folder is marked
+below with what is expected in it.
+
+## :zero: Walkthrough [Theory]
+
+Introduction to nodejs and CLI.
+
+**Folder** : `session-1/intro.md`
+
+## :one: Setup your machine [Codelab]
+
+**Folder** : `session-1`
+
+- Install nodejs
+- Create a folder - "myprofile"
+- Create package.json
+
+        npm init
+
+## :two: Create your Data [Codelab]
+
+**Folder** : `session-2`
+
+Go to folder `session-2/myprofile/data`.
+If you want to update the content you can edit it in `data.js`
+
+## :three: Code Time [Codelab]
+
+**Folder** : `session-3`
+
+Go to folder `session-3/myprofile`.
+In this we will identify the commands and add it to the commands folder.
+
+To sync with `data.js` we have following commands (user input) :
+
+- about me
+- contact me
+- experience
+- summary
+
+To print the choices on the terminal we will use the npm package `inquirer`.
+
+## :four: Beautification
+
+**Folder** : `session-4`
+
+This section is totally optional.
+To make the CLI' content more colorful and presentable. We will use two more packages:
+
+- [chalk](https://www.npmjs.com/package/chalk) : Will let us provide the colors to the texts.
+- [cfonts](https://www.npmjs.com/package/cfonts) : Will let us write a big fancy welcome message.
+- [inquirer](https://www.npmjs.com/package/inquirer) : Common interactive command line user interfaces.
+- [commander](https://www.npmjs.com/package/inquirer) : Common interactive command line user interfaces.
+
+## :five: Publish NPM [Codelab]
+
+### How to make it Executable?
+
+1.  Add `#!/usr/bin/env node` on the top of `index.js`.
+    Read about it here : https://en.wikipedia.org/wiki/Shebang_%28Unix%29
+
+2.  In `package.json`, add section of `bin`
+
+        "bin": {
+            "myprofile": "./index.js"
+        }
+
+3.  Run the following command
+
+         npm link
+
+4.  Now go to the terminal and write
+
+         myprofile
+
+### Publish to NPM
+
+1.  Create an account in npmjs.com
+2.  On terminal run the following command & enter the username and password.
+
+        npm login
+
+3.  To publish
+
+        npm publish
+
+    You can check your package after publishing : https://www.npmjs.com/~{username}/{package-name}
+
+# How to run it?
+
+1.  Go to the desire folder. eg :
+
+        cd session-2/myprofile
+
+2.  Install the dependency
+
+        npm install
+
+3.  From the root of the `myprofile` run the following command to start the application
+
+        node index.js
+
+**If you are only interested in the end code then clone the `session-4` folder.**
+
+# :hearts: Collabrations
+
+Collabrations are the awesome way to create small things better, and big. If you see anything which can be improved ? If you see something can be added here? Before telling to anyone else, raise the PR :) . If you are new to the collabrations and have no idea how to do it.
